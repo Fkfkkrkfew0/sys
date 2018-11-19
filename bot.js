@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-const googl = require('goo.gl'); 
+
 const google = require('google-it'); 
 const translate = require('google-translate-api'); 
 const fs = require('fs');
