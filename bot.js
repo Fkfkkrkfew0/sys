@@ -39,7 +39,11 @@ client.on('message', msg => {
 
 
 
-
+client.on('message', msg => {
+    if (msg.content === 'Hi') {
+      msg.reply('** ؟ **');
+    }
+  });
 
 
 
