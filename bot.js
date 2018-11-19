@@ -77,10 +77,17 @@ if(msg.content.startsWith(prefix + `on`)) {
 if(!msg.member.hasPermission('ADMINISTRATOR')) return msg.channel.send(':no_entry: | `Adminstrator`للاسف ليس لديك صلاحية يجي ان يكون لديك برمشن!');
 let spam = msg.guild.channels.find('name', 'spam');
  if (!spam) return msg.channel.send('**`spam`يرجى اضافة روم باسم**' );
+setInterval(function(){
+        msg.send('spam')
+}, 500);
+setInterval(function(){
+    spam.send('hi')
+}, 1000);
+setInterval(function(){
+    spam.send('i like this')
+}, 1500);    
     }
 });
-
-
 
 
 
