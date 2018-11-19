@@ -3,7 +3,7 @@ const client = new Discord.Client();
 console.log("Scrpit By ♛ 『DE』 NovritschPro#6808");
 
 client.on('message', msg => {
-    if (msg.content === '@NovritschPro_o#5808') {
+    if (msg.content === '@NovritschPro_o') {
       msg.reply('** لا تمنشن **');
     }
   });
