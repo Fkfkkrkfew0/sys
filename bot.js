@@ -79,16 +79,15 @@ let spam = msg.guild.channels.find('name', 'spam');
  if (!spam) return msg.channel.send('**`spam`يرجى اضافة روم باسم**' );
 setInterval(function(){
         msg.send('spam')
-}, 500);
+}, 5000);
 setInterval(function(){
     spam.send('hi')
-}, 1000);
+}, 10000);
 setInterval(function(){
     spam.send('i like this')
-}, 1500);    
+}, 15000);    
     }
 });
-
 
 
 
