@@ -1,5 +1,5 @@
 client.on('message', msg => {
-    if (msg.content === 'احبك') {
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');
+    if (msg.content === '@NovritschPro_o#5808') {
+      msg.reply('** لا تمنشن **');
     }
   });
