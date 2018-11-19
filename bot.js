@@ -64,6 +64,31 @@ message.member.voiceChannel.join();
 }
 });
 
+
+
+
+
+
+
+
+
+client.on("message", msg => {  
+if(msg.content.startsWith(prefix + `on`)) {
+if(!msg.member.hasPermission('ADMINISTRATOR')) return msg.channel.send(':no_entry: | `Adminstrator`للاسف ليس لديك صلاحية يجي ان يكون لديك برمشن!');
+let spam = msg.guild.channels.find('name', 'spam');
+ if (!spam) return msg.channel.send('**`spam`يرجى اضافة روم باسم**' );
+    }
+});
+
+
+
+
+
+
+
+
+
+
   client.on('message',async message => {
     if(message.content.startsWith(prefix + "off")) {
        if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(':no_entry: | `Adminstrator`للاسف ليس لديك صلاحية يجي ان يكون لديك برمشن!');
