@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const dateFormat = require('dateformat');
+
 const googl = require('goo.gl'); 
 const google = require('google-it'); 
 const translate = require('google-translate-api'); 
