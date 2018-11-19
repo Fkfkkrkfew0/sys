@@ -119,7 +119,6 @@ ${prefix}say - يقول البوت التقوله ويحذف رسالتك
 }
 });  
 
-let bane = JSON.parse(fs.readFileSync("./j7.json", "utf8"));
 let banse = new Set();
 client.on('guildBanAdd', function(guild) {
   guild.fetchAuditLogs().then(logs => {
